@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const server = app.listen(1337);
 const io = require("socket.io")(server);
+console.log("server running on port 1337");
 let color = "";
 
 //Config
